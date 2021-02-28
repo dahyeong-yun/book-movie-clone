@@ -35,5 +35,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "homepage": "https://dahyeong-yun.github.io/book_moive-clone",
+  "script":{
+    "start":"react-scripts start",
+    "build":"react-scripts bulid",
+    "predeploy":"npm run bulid",
+    "deploy":"gh-pages -d bulid"
   }
 }
