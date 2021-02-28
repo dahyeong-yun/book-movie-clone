@@ -111,3 +111,9 @@
 
   export default App;
   ```
+
+- `a`가 아닌 `Link` 사용
+  - 링크 값을 감싸는 따옴표가 있으면 안된다.
+  ```javascript
+    <Link to={{ pathname:'/about', state:{fromNavigation:true}}}>About</Link>
+  ```
