@@ -17,7 +17,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts bulid",
+    "predeploy": "npm run bulid",
+    "deploy": "gh-pages -d bulid"
   },
   "eslintConfig": {
     "extends": [
@@ -37,11 +39,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://dahyeong-yun.github.io/book_moive-clone",
-  "script": {
-    "start": "react-scripts start",
-    "build": "react-scripts bulid",
-    "predeploy": "npm run bulid",
-    "deploy": "gh-pages -d bulid"
-  }
+  "homepage": "https://dahyeong-yun.github.io/book_moive-clone"
 }
